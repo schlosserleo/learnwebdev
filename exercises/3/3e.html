@@ -1,0 +1,51 @@
+<style>
+  .apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    font-size: 16;
+    width: 270px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+    margin: 4px;
+    cursor: pointer;
+    transition: background-color 150ms;
+  }
+  .save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    font-size: 16;
+    width: 100px;
+    height: 44px;
+    border-color: rgb(10, 102, 194);
+    border: solid;
+    border-width: 1px;
+    border-radius: 22px;
+    margin: 4px;
+    cursor: pointer;
+    transition:
+      border-width 150ms,
+      opacity,
+      background-color 150ms;
+  }
+  .apply-button:hover {
+    background-color: rgb(30, 62, 154);
+  }
+  .apply-button:active {
+    opacity: 80%;
+  }
+  .save-button:hover {
+    border-width: 2px;
+    background-color: rgba(10, 102, 194, 10%);
+  }
+  .save-button:active {
+    background-color: rgba(10, 102, 194, 80%);
+    color: white;
+    border-color: rgb(10, 102, 194);
+  }
+</style>
+
+<button class="apply-button" type="">Apply on company website</button>
+<button class="save-button" type="">Save</button>
